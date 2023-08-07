@@ -8,6 +8,6 @@ def sum_digits(num):
     return sum
 
 
-inp = [120, 20, 42, 212, 802, 139, 175, 802, 468]
+inp = [20, 42, 212, 802, 139, 175, 802, 468]
 print("Input List = ", inp)
 print("Maximum Value in the List = ", max(inp, key = sum_digits))
